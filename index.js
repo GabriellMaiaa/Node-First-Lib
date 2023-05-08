@@ -38,4 +38,4 @@ async function pegaArquivo(caminhoArquivo) {//Ele vai tentar, e se estiver corre
 // }
 
 pegaArquivo('./arquivos/texto.md')
-pegaArquivo('./arquivos/')
+// pegaArquivo('./arquivos/')
