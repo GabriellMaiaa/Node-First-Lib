@@ -6,7 +6,7 @@ const textoTeste = 'São geralmente recuperados a partir de um objeto [FileList]
 function extraiLinks (texto) {
     const regex = /\[([^[\]]*?)\]\((https?:\/\/[^\s?#.].[^\s]*)\)/gm;
 
-    const capturas = texto.match(regex)
+    const capturas = regex.exec(texto)
     console.log(capturas)
 }
 
