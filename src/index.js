@@ -47,7 +47,7 @@ async function pegaArquivo(caminhoArquivo) {//Ele vai tentar, e se estiver corre
 //     })
 // }
 
-pegaArquivo('./arquivos/texto.md')
+export default pegaArquivo;
 // pegaArquivo('./arquivos/')
 
 // \[([^[\]]*?)\]\((https?:\/\/[^\s?#.].[^\s]*)\)
